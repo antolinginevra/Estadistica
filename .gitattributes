@@ -1,10 +1,1 @@
-import pandas as pd
 
-# Cargar el archivo CSV
-PISA_ESP_ITA = pd.read_csv('PISA_estudiantes_ESP_ITA.csv')
-# Comprobamos el número de observaciones de la muestra
-len(PISA_ESP_ITA)
-# Mostramos las primeras obervaciones
-PISA_ESP_ITA.head()
-# Mostramos las últimas obervaciones
-PISA_ESP_ITA.tail()
